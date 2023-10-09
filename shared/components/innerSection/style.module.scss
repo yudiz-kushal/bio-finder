@@ -1,0 +1,28 @@
+@import '@assets/scss/helpers/index';
+
+.innerBanner {
+  background: linear-gradient(to top, rgba(83, 100, 141, 0) 0%, rgb(218, 64, 60, 0.3) 85%);
+  // border-bottom: 3px solid $primary;
+
+  h1 {
+    color: $white;
+  }
+}
+
+.breadcrumb {
+  li {
+    // display: inline-block;
+    // color: $primary;
+
+    a {
+      color: $white;
+    }
+
+    &+li::before {
+      content: '-';
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px 0 7px;
+    }
+  }
+}

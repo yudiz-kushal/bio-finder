@@ -1,0 +1,41 @@
+@import '@assets/scss/helpers/index';
+
+.card {
+  background-color: $header-bg;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.content {
+  padding: 1.5rem;
+
+  .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  @media (max-width: 767px) {
+    padding: 1rem;
+  }
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.125;
+  color: $white;
+
+  @media (max-width: 767px) {
+    font-size: 1.2rem;
+  }
+}
+
+.subtitle {
+  margin-top: 5px;
+}

@@ -1,0 +1,11 @@
+.row {
+  @media (max-width: 567px) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    &>* {
+      width: 90%;
+      max-width: 90%;
+    }
+  }
+}

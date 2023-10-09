@@ -1,0 +1,12 @@
+@import '@assets/scss/helpers/index';
+
+.link {
+  color: $primary;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  &:hover {
+    background-color: $header-bg;
+    color: $primary;
+  }
+}

@@ -1,0 +1,72 @@
+@import '@assets/scss/helpers/index';
+
+.b-card {
+  background-color: $header-bg;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.b-content {
+  padding: 1.5rem;
+  min-height: calc(100% - 46px);
+
+  .b-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  @media (max-width: 767px) {
+    padding: 1rem;
+  }
+}
+
+.b-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.125;
+  color: $white;
+  white-space: pre-line;
+
+  @media (max-width: 767px) {
+    font-size: 1.2rem;
+  }
+}
+
+.b-sub-title {
+  margin-top: 5px;
+}
+
+.b-footer {
+  border-top: 1px solid $body-bg;
+
+  .b-button {
+    color: $body-text;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    svg {
+      margin-right: 5px;
+    }
+
+    &+.b-button {
+      border-left: 1px solid $body-bg;
+    }
+
+    @media (max-width: 767px) {
+      svg {
+        width: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '@assets/scss/helpers/index';
+
+.banner {
+
+    // padding: 50px 0;
+    p {
+        font-size: 30px;
+        text-shadow: 2px 2px 4px red;
+        text-transform: uppercase;
+        color: $white;
+
+        @media (max-width: 1199px) {
+            font-size: 28px;
+        }
+        @media (max-width: 767px) {
+            font-size: 22px;
+        }
+    }
+}

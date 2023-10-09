@@ -1,0 +1,25 @@
+@import '@assets/scss/helpers/index';
+
+.m-footer {
+  background-color: $header-bg;
+}
+
+@media (max-width: 767px) {
+  .hasFooter~.m-footer {
+    margin-bottom: 50px;
+  }
+}
+
+.mf-links a {
+  padding: 0;
+  color: $white;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &+a {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+@import '@assets/scss/helpers/index';
+
+.footer {
+  background-color: $header-bg;
+}
+
+.links a {
+  padding: 0;
+  color: $white;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &+a {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+@import '@assets/scss/helpers/index';
+
+.header {
+    background-color: $header-bg;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    // padding: 20px 0;
+}
+
+.logo {
+    color: $white;
+    font-size: 30px;
+
+    &:hover {
+        color: $white;
+    }
+
+    @media (max-width:991px) {
+        font-size: 26px;
+    }
+}
+
+.header-menu {
+    list-style-type: none;
+
+    a {
+        font-size: 18px;
+        color: $white;
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        @media (max-width:480px) {
+            font-size: 16px;
+        }
+    }
+
+    li+li {
+        margin-left: 15px;
+    }
+}
