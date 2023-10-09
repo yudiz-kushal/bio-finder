@@ -1,0 +1,92 @@
+{
+  "../shared/components/appLayout/index.js -> @shared/components/footer": {
+    "id": "../shared/components/appLayout/index.js -> @shared/components/footer",
+    "files": [
+      "static/chunks/shared_components_footer_index_js.js"
+    ]
+  },
+  "../shared/components/appLayout/index.js -> @shared/components/header": {
+    "id": "../shared/components/appLayout/index.js -> @shared/components/header",
+    "files": [
+      "static/chunks/shared_components_header_index_js.js"
+    ]
+  },
+  "../shared/components/bioCard/footer/index.js -> @shared/icons/iconCopy": {
+    "id": "../shared/components/bioCard/footer/index.js -> @shared/icons/iconCopy",
+    "files": [
+      "static/chunks/shared_icons_iconCopy_index_js.js"
+    ]
+  },
+  "../shared/components/bioCard/footer/index.js -> @shared/icons/iconShare": {
+    "id": "../shared/components/bioCard/footer/index.js -> @shared/icons/iconShare",
+    "files": [
+      "static/chunks/shared_icons_iconShare_index_js.js"
+    ]
+  },
+  "../shared/components/bioCard/index.js -> @shared/components/bioCard/footer": {
+    "id": "../shared/components/bioCard/index.js -> @shared/components/bioCard/footer",
+    "files": [
+      "static/chunks/shared_components_bioCard_footer_index_js.js"
+    ]
+  },
+  "../shared/components/homeBanner/index.js -> @shared/components/bfButton": {
+    "id": "../shared/components/homeBanner/index.js -> @shared/components/bfButton",
+    "files": [
+      "static/chunks/shared_components_bfButton_index_js.js"
+    ]
+  },
+  "../shared/components/homeBanner/index.js -> @shared/components/heading": {
+    "id": "../shared/components/homeBanner/index.js -> @shared/components/heading",
+    "files": [
+      "static/chunks/shared_components_heading_index_js-_ee8f0.js"
+    ]
+  },
+  "../shared/components/homeBio/index.js -> @shared/components/bfLink": {
+    "id": "../shared/components/homeBio/index.js -> @shared/components/bfLink",
+    "files": [
+      "static/chunks/shared_components_bfLink_index_js.js"
+    ]
+  },
+  "../shared/components/homeBio/index.js -> @shared/components/bioCard": {
+    "id": "../shared/components/homeBio/index.js -> @shared/components/bioCard",
+    "files": [
+      "static/chunks/shared_components_bioCard_index_js.js"
+    ]
+  },
+  "../shared/components/homeBio/index.js -> @shared/components/heading": {
+    "id": "../shared/components/homeBio/index.js -> @shared/components/heading",
+    "files": [
+      "static/chunks/shared_components_heading_index_js-_ee8f1.js"
+    ]
+  },
+  "../shared/components/homeSections/index.js -> @shared/components/advertisement": {
+    "id": "../shared/components/homeSections/index.js -> @shared/components/advertisement",
+    "files": [
+      "static/chunks/shared_components_advertisement_index_js.js"
+    ]
+  },
+  "../shared/components/homeSections/index.js -> @shared/components/homeBio": {
+    "id": "../shared/components/homeSections/index.js -> @shared/components/homeBio",
+    "files": [
+      "static/chunks/shared_components_homeBio_index_js.js"
+    ]
+  },
+  "_app.js -> @shared/components/appLayout": {
+    "id": "_app.js -> @shared/components/appLayout",
+    "files": [
+      "static/chunks/shared_components_appLayout_index_js.js"
+    ]
+  },
+  "index.js -> @shared/components/homeBanner": {
+    "id": "index.js -> @shared/components/homeBanner",
+    "files": [
+      "static/chunks/shared_components_homeBanner_index_js.js"
+    ]
+  },
+  "index.js -> @shared/components/homeSections": {
+    "id": "index.js -> @shared/components/homeSections",
+    "files": [
+      "static/chunks/shared_components_homeSections_index_js.js"
+    ]
+  }
+}
