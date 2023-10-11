@@ -29,6 +29,24 @@
       "static/chunks/shared_components_bioCard_footer_index_js.js"
     ]
   },
+  "../shared/components/bioList/index.js -> @shared/components/advertisement": {
+    "id": "../shared/components/bioList/index.js -> @shared/components/advertisement",
+    "files": [
+      "static/chunks/shared_components_advertisement_index_js.js"
+    ]
+  },
+  "../shared/components/bioList/index.js -> @shared/components/bioCard": {
+    "id": "../shared/components/bioList/index.js -> @shared/components/bioCard",
+    "files": [
+      "static/chunks/shared_components_bioCard_index_js.js"
+    ]
+  },
+  "../shared/components/bioList/index.js -> @shared/components/innerSection": {
+    "id": "../shared/components/bioList/index.js -> @shared/components/innerSection",
+    "files": [
+      "static/chunks/shared_components_innerSection_index_js.js"
+    ]
+  },
   "../shared/components/homeBanner/index.js -> @shared/components/bfButton": {
     "id": "../shared/components/homeBanner/index.js -> @shared/components/bfButton",
     "files": [
@@ -77,6 +95,12 @@
       "static/chunks/shared_components_appLayout_index_js.js"
     ]
   },
+  "bumble-bio/index.js -> @shared/components/bioList": {
+    "id": "bumble-bio/index.js -> @shared/components/bioList",
+    "files": [
+      "static/chunks/shared_components_bioList_index_js.js"
+    ]
+  },
   "index.js -> @shared/components/homeBanner": {
     "id": "index.js -> @shared/components/homeBanner",
     "files": [
@@ -87,6 +111,12 @@
     "id": "index.js -> @shared/components/homeSections",
     "files": [
       "static/chunks/shared_components_homeSections_index_js.js"
+    ]
+  },
+  "tinder-bio/index.js -> @shared/components/bioList": {
+    "id": "tinder-bio/index.js -> @shared/components/bioList",
+    "files": [
+      "static/chunks/shared_components_bioList_index_js.js"
     ]
   }
 }

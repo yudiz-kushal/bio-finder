@@ -515,6 +515,17 @@ module.exports = require("react-dom");
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
 
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("axios");;
+
 /***/ })
 
 };

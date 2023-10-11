@@ -11,7 +11,7 @@ function InnerSection({ children, seo, isMobileFooter }) {
           <h1>{seo?.sTitle}</h1>
           <ol className={`${style.breadcrumb} d-flex align-items-center justify-content-center m-0`}>
             <li><Link href='/' prefetch={false}>Home</Link></li>
-            <li>Tinder Bio</li>
+            <li>{seo?.sTitle}</li>
           </ol>
         </div>
       </section>
