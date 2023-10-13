@@ -14,7 +14,7 @@ function BioCard({ text, index }) {
   return (
     <div className="b-card h-100 m-3 red-hover-shadow card-container">
       <Link
-        href="/tinder-bio/abc"
+        href={`/bio-details/tinder-bio/${index}`}
         prefetch={false}
         className="b-link"
         title={`${text?.aProfileFields?.sDisplayText}`}>
@@ -25,17 +25,17 @@ function BioCard({ text, index }) {
               alt={`Profile Image ${index + 1}`}
               height={100}
               width={100} />
-            {/* <BioCardFooter text={text} /> */}
           </div>
           <div className="b-content position-relative">
             <p className="b-details">
               {genderOptions.map((option, i) => (
-                option?.value == text?.sGender &&
+                option?.value === +text?.sGender &&
                 <label key={i} className='g-image' >
                   <Image src={option.value === 1 ? gMale : gFemale} alt={option.value === 1 ? "Male" : "Female"} /> | <span>{text?.nAge}</span>
                 </label>
-              ))}<br />
+              ))}
             </p>
+            <BioCardFooter text={text} bButton={"b-button"} />
             <p>
               {text?.sHomeCountry && `${text?.sHomeCountry}, `}
               {text?.sHomeState && `${text?.sHomeState}, `}

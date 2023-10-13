@@ -2,50 +2,12 @@ import dynamic from 'next/dynamic'
 import PropTypes from 'prop-types'
 
 import style from "./style.module.scss"
-import { allBios } from '@shared/api/allBios'
-import { useEffect, useState } from 'react'
 
 const Heading = dynamic(() => import('@shared/components/heading'))
 const BfLink = dynamic(() => import('@shared/components/bfLink'))
 const BioCard = dynamic(() => import('@shared/components/bioCard'))
 
-import { blurImagesMan, blurImagesFemale } from '@shared/utils/images'
-import { shuffleArray } from '@shared/utils'
-function HomeBio({ title, link, className = '' }) {
-  const [data, setData] = useState([])
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await allBios({
-          size: 6,
-          pageNumber: 1,
-          type: "aboutme_text",
-          platFormType: "tinder"
-        })
-
-        const shuffledManImages = shuffleArray(blurImagesMan);
-        const shuffledFemaleImages = shuffleArray(blurImagesFemale);
-
-        const combinedImages = response?.data?.data?.ans?.map((item, i) => {
-          const gender = item?.sGender;
-          const imageArray = gender === '2' ? shuffledFemaleImages : shuffledManImages;
-          // const imageArray = gender === '2' ? blurImagesMan : blurImagesFemale;
-          const selectedImage = imageArray[i % imageArray.length]; //repeated images
-
-          return { ...item, image: selectedImage };
-        });
-
-        setData(combinedImages);
-
-      } catch (error) {
-        console.error('Error fetching data:', error)
-      }
-    };
-
-    fetchData();
-  }, [])
-
+function HomeBio({ title, link, className = '', data }) {
   return (
     <>
       <div className={`d-flex align-items-center justify-content-between mb-4 ${className}`}>

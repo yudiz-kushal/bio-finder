@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/tinder-bio": "pages/tinder-bio.js",
-  "/bumble-bio": "pages/bumble-bio.js",
-  "/": "pages/index.js"
+  "/bio-details/[...slug]": "pages/bio-details/[...slug].js"
 }

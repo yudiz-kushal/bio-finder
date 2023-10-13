@@ -5,12 +5,12 @@ import allRoutes from '@shared/utils/allRoutes';
 const Advertisement = dynamic(() => import('@shared/components/advertisement'))
 const HomeBio = dynamic(() => import('@shared/components/homeBio'))
 
-function HomeSections() {
+function HomeSections({ data }) {
   return (
     <div className='row'>
       <div className='col-lg-9'>
-        <HomeBio title="Tinder Bio" link={allRoutes.tinder} />
-        <HomeBio title="Bumble Bio" link={allRoutes.bumble} className='mt-4' />
+        <HomeBio title="Tinder Bio" link={allRoutes.tinder} data={data} />
+        <HomeBio title="Bumble Bio" link={allRoutes.bumble} className='mt-4' data={data} />
       </div>
       <div className="col-lg-3 d-none d-lg-block">
         <Advertisement />

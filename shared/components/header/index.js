@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import allRoutes from "@shared/utils/allRoutes";
+import BfLink from "../bfLink";
 
 function Header() {
 	return (
@@ -13,8 +14,8 @@ function Header() {
 				</div>
 				<div>
 					<ul className="header-menu d-flex m-0">
-						<li><Link prefetch={false} href={allRoutes.tinder} title="Tinder" >Tinder</Link></li>
-						<li><Link prefetch={false} href={allRoutes.bumble} title="Bumble" >Bumble</Link></li>
+						<BfLink href={`/bio${allRoutes.tinder}`}>Tinder</BfLink>
+						<BfLink href={`/bio${allRoutes.bumble}`}>Bumble</BfLink>
 					</ul>
 				</div>
 			</div>

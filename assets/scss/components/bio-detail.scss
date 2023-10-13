@@ -1,0 +1,25 @@
+.b-cardFooter{
+    position: initial;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #1e2024;
+    margin: 0 !important;
+}
+
+.b-CardButtonFooter {
+    color: $body-text;
+    border: none;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+
+    svg {
+      margin-right: 5px;
+      width: 18px;
+      color: $white;
+    }
+
+    &+.b-button {
+      border-left: 1px solid $white;
+    }
+
+}

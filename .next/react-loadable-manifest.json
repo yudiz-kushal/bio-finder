@@ -29,34 +29,34 @@
       "static/chunks/shared_components_bioCard_footer_index_js.js"
     ]
   },
-  "../shared/components/bioList/index.js -> @shared/components/advertisement": {
-    "id": "../shared/components/bioList/index.js -> @shared/components/advertisement",
+  "../shared/components/bioDetail/index.js -> @shared/components/advertisement": {
+    "id": "../shared/components/bioDetail/index.js -> @shared/components/advertisement",
     "files": [
       "static/chunks/shared_components_advertisement_index_js.js"
     ]
   },
-  "../shared/components/bioList/index.js -> @shared/components/bioCard": {
-    "id": "../shared/components/bioList/index.js -> @shared/components/bioCard",
+  "../shared/components/bioDetail/index.js -> @shared/components/bioCard/footer": {
+    "id": "../shared/components/bioDetail/index.js -> @shared/components/bioCard/footer",
     "files": [
-      "static/chunks/shared_components_bioCard_index_js.js"
+      "static/chunks/shared_components_bioCard_footer_index_js.js"
     ]
   },
-  "../shared/components/bioList/index.js -> @shared/components/innerSection": {
-    "id": "../shared/components/bioList/index.js -> @shared/components/innerSection",
+  "../shared/components/bioDetail/index.js -> @shared/components/innerSection": {
+    "id": "../shared/components/bioDetail/index.js -> @shared/components/innerSection",
     "files": [
       "static/chunks/shared_components_innerSection_index_js.js"
     ]
   },
-  "../shared/components/homeBanner/index.js -> @shared/components/bfButton": {
-    "id": "../shared/components/homeBanner/index.js -> @shared/components/bfButton",
+  "../shared/components/bioDetail/index.js -> @shared/components/lazyLoad": {
+    "id": "../shared/components/bioDetail/index.js -> @shared/components/lazyLoad",
     "files": [
-      "static/chunks/shared_components_bfButton_index_js.js"
+      "static/chunks/shared_components_lazyLoad_index_js.js"
     ]
   },
-  "../shared/components/homeBanner/index.js -> @shared/components/heading": {
-    "id": "../shared/components/homeBanner/index.js -> @shared/components/heading",
+  "../shared/components/bioDetail/index.js -> @shared/components/relatedBio": {
+    "id": "../shared/components/bioDetail/index.js -> @shared/components/relatedBio",
     "files": [
-      "static/chunks/shared_components_heading_index_js-_ee8f0.js"
+      "static/chunks/shared_components_relatedBio_index_js.js"
     ]
   },
   "../shared/components/homeBio/index.js -> @shared/components/bfLink": {
@@ -74,17 +74,11 @@
   "../shared/components/homeBio/index.js -> @shared/components/heading": {
     "id": "../shared/components/homeBio/index.js -> @shared/components/heading",
     "files": [
-      "static/chunks/shared_components_heading_index_js-_ee8f1.js"
+      "static/chunks/shared_components_heading_index_js.js"
     ]
   },
-  "../shared/components/homeSections/index.js -> @shared/components/advertisement": {
-    "id": "../shared/components/homeSections/index.js -> @shared/components/advertisement",
-    "files": [
-      "static/chunks/shared_components_advertisement_index_js.js"
-    ]
-  },
-  "../shared/components/homeSections/index.js -> @shared/components/homeBio": {
-    "id": "../shared/components/homeSections/index.js -> @shared/components/homeBio",
+  "../shared/components/relatedBio/index.js -> @shared/components/homeBio": {
+    "id": "../shared/components/relatedBio/index.js -> @shared/components/homeBio",
     "files": [
       "static/chunks/shared_components_homeBio_index_js.js"
     ]
@@ -95,28 +89,10 @@
       "static/chunks/shared_components_appLayout_index_js.js"
     ]
   },
-  "bumble-bio/index.js -> @shared/components/bioList": {
-    "id": "bumble-bio/index.js -> @shared/components/bioList",
+  "bio-details/[...slug]/index.js -> @shared/components/bioDetail": {
+    "id": "bio-details/[...slug]/index.js -> @shared/components/bioDetail",
     "files": [
-      "static/chunks/shared_components_bioList_index_js.js"
-    ]
-  },
-  "index.js -> @shared/components/homeBanner": {
-    "id": "index.js -> @shared/components/homeBanner",
-    "files": [
-      "static/chunks/shared_components_homeBanner_index_js.js"
-    ]
-  },
-  "index.js -> @shared/components/homeSections": {
-    "id": "index.js -> @shared/components/homeSections",
-    "files": [
-      "static/chunks/shared_components_homeSections_index_js.js"
-    ]
-  },
-  "tinder-bio/index.js -> @shared/components/bioList": {
-    "id": "tinder-bio/index.js -> @shared/components/bioList",
-    "files": [
-      "static/chunks/shared_components_bioList_index_js.js"
+      "static/chunks/shared_components_bioDetail_index_js.js"
     ]
   }
 }

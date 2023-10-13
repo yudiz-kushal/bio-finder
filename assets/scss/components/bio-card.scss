@@ -2,7 +2,6 @@
 
 .b-card {
   background-color: $header-bg;
-  border-radius: 20px;
   box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
   // transform: translateY(-100px);
   // transition: .35s ease-in-out;
@@ -21,8 +20,8 @@
 
 .b-content {
   padding: 1rem;
-  border-radius: 20px;
   background-color: $black;
+  border-radius: 20px 20px 0 0;
   color : $white;
   transform: translateY(-100%);
   transition: .35s ease-in-out;
@@ -52,7 +51,7 @@
 .b-title {
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.125;
+  line-height: 1.5;
   color: $white;
   white-space: pre-line;
 
@@ -66,12 +65,18 @@
 }
 
 .b-footer {
-  border-top: 1px solid $body-bg;
+  border-top:  $body-bg;
+  position: absolute;
+  right: 0;
+  background-color: $white;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 
   .b-button {
     color: $body-text;
     border: none;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -80,10 +85,16 @@
 
     svg {
       margin-right: 5px;
+      width: 18px;
+      color: $black;
     }
 
+    // svg:hover{
+    //   color: $white;
+    // }
+
     &+.b-button {
-      border-left: 1px solid $body-bg;
+      border-left: 1px solid $white;
     }
 
     @media (max-width: 767px) {
@@ -101,7 +112,6 @@
   flex: 1;
 
   img{
-    border-radius: 25px;
     height: 100% !important;
     width: 100%;
     object-fit: cover;
@@ -130,7 +140,6 @@
   }
 
   .m-card{
-    border-radius: 20px;
     height: 470px !important;
 
     @media (max-width: 767px) {
